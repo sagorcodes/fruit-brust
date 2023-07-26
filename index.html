@@ -294,6 +294,65 @@
           </div>
         </div>
       </div>
+
+      <div>
+        <!-- card 1 -->
+        <div class="card w-72 border rounded-lg mt-9">
+          <figure class="px-10 pt-10">
+            <img src="/images/fruit6.png" alt="" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <h2 class="card-title border-b">12.90$ - 18.85$</h2>
+
+            <p class="">Apples</p>
+            <span>
+              <i class="fa-solid fa-star text-cinnabar-primary"></i>
+              <i class="fa-solid fa-star text-cinnabar-primary"></i>
+              <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+              <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+              <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+            </span>
+            <div class="card-actions">
+              <!-- Open the modal using ID.showModal() method -->
+              <button
+                class="text-cinnabar-primary"
+                onclick="my_modal_1.showModal()"
+              >
+                Details
+              </button>
+              <dialog id="my_modal_1" class="modal">
+                <form method="dialog" class="modal-box">
+                  <img class="mx-auto" src="/images/fruit6.png" alt="" />
+                  <h3 class="font-extrabold text-3xl">Apples</h3>
+                  <p class="py-4">
+                    Professional employees are there for you to pick the most
+                    amazing and fresh fruits.
+                  </p>
+                  <span>
+                    <i class="fa-solid fa-star text-cinnabar-primary"></i>
+                    <i class="fa-solid fa-star text-cinnabar-primary"></i>
+                    <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                    <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                    <i class="fa-solid fa-star text-[#FBC0A8]"></i>
+                  </span>
+
+                  <!-- if there is a button in form, it will close the modal -->
+                  <div class="space-x-3 mt-2">
+                    <button class="btn btn-outline text-cinnabar-primary">
+                      Close
+                    </button>
+                    <button
+                      class="btn text-white bg-cinnabar-primary hover:bg-black"
+                    >
+                      Buy Now
+                    </button>
+                  </div>
+                </form>
+              </dialog>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer></footer>
   </body>
